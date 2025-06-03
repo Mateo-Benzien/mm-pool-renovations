@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.water-background {
+  background-image: url('./assets/water background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 50px;
+}

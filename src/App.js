@@ -5,18 +5,19 @@ import About from './components/About';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
+import './App.css';
 
 function App() {
   return (
     <div>
       <Header />
-      <main>
-        <Home />
+      <Home />
+      <div className="water-background">
         <About />
         <Services />
         <Gallery />
         <Contact />
-      </main>
+      </div>
     </div>
   );
 }
